@@ -223,6 +223,7 @@ if (!cfg || !cfg.apiKey) {
         }
         function closeModal() {
             modal.classList.remove('is-open');
+            addBtn.focus();
             modal.setAttribute('aria-hidden', 'true');
             modal.removeEventListener('keydown', onTrapKey);
             setTimeout(() => { modal.hidden = true; document.body.style.overflow = ''; }, 250);
