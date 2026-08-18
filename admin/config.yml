@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Kyul-l/Kyul-l.github.io
+  repo: ziyye3/ziyye3.github.io
   branch: main
   # OAuth: set up a proxy (e.g. Vercel deploy of netlify-cms-github-oauth-provider)
   # and add its URL here as `base_url:`. Until then use local_backend below.
@@ -14,9 +14,9 @@ public_folder: "/assets/uploads"
 
 publish_mode: simple
 
-site_url: https://kyul-l.github.io
-display_url: https://kyul-l.github.io
-logo_url: https://kyul-l.github.io/assets/images/kyul-mascot.png
+site_url: https://ziyye3.github.io
+display_url: https://ziyye3.github.io
+logo_url: https://ziyye3.github.io/assets/images/ziyye-mascot.png
 
 collections:
   # ── ◇ Wiki ──────────────────────────────────────────

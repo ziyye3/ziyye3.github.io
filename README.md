@@ -1,5 +1,5 @@
-# Kyul's Archive
+# ziyye's Archive
 
-Source for [kyul-l.github.io](https://kyul-l.github.io)
+Source for [ziyye3.github.io](https://ziyye3.github.io/)
 
 A personal archive built with Jekyll and GitHub Actions.

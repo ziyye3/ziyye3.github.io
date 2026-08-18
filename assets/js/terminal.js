@@ -58,9 +58,9 @@ class Terminal {
       const mm = String(d.getMinutes()).padStart(2, '0');
       return `${y}-${m}-${day} ${hh}:${mm}`;
     };
-    const previous = localStorage.getItem('kyul.lastOpened');
+    const previous = localStorage.getItem('ziyye.lastOpened');
     const now = fmt(new Date());
-    localStorage.setItem('kyul.lastOpened', now);
+    localStorage.setItem('ziyye.lastOpened', now);
     const openedLine = previous
       ? `✨ last opened · ${previous}`
       : `✨ first opened · ${now}`;
@@ -330,7 +330,7 @@ class Terminal {
       const safeKeyword = keyword.replace(/</g, '&lt;').replace(/>/g, '&gt;');
       const emptyHtml =
         '<div class="search-empty">' +
-          '<img class="search-empty__mascot" src="/assets/images/kyul-mascot-empty.png" alt="" aria-hidden="true">' +
+          '<img class="search-empty__mascot" src="/assets/images/ziyye-mascot-empty.png" alt="" aria-hidden="true">' +
           '<p class="search-empty__lead">Nothing in these pages for &ldquo;' + safeKeyword + '&rdquo;.</p>' +
           '<p class="search-empty__sub">Try another word.</p>' +
         '</div>';
